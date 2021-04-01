@@ -1,0 +1,48 @@
+{
+  "name": "mini-cloud-music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config config/webpack.prd.js",
+    "start": "webpack-dev-server --config config/webpack.dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.24.2"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@types/react-router-dom": "^5.1.7",
+    "chalk": "^4.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "core-js": "^3.10.0",
+    "css-loader": "^5.2.0",
+    "cssnano": "^4.1.10",
+    "dart-sass": "^1.25.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.4.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "postcss-loader": "^5.2.0",
+    "progress-bar-webpack-plugin": "^2.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "regenerator-runtime": "^0.13.7",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "typescript": "^4.2.3",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
