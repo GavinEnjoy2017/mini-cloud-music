@@ -1,7 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin'); //抽离CSS样式
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin'); //压缩CSS文件
 
 const buildPath = 'dist';
 const babelLoaderReg = /\.(js|ts)x?$/;
