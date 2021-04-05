@@ -14,7 +14,7 @@ function Home (props) {
                 <span className="iconfont">&#xe62b;</span>
             </Top>
             <Tab>
-                <NavLink to="/recommend" activeClassName="active">
+                <NavLink to="/recommend" activeStyle="{{color: red}}">
                     <TabItem><span> 推荐 </span></TabItem>
                 </NavLink>
                 <NavLink to="/singers" activeClassName="selected">
