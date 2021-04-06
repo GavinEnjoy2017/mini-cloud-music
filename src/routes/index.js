@@ -19,14 +19,17 @@ export default [
             },
             {
                 path: '/recommend',
+                exact: true,
                 component: Recommend
             },
             {
                 path: '/singers',
+                exact: true,
                 component: Singers
             },
             {
                 path: '/rank',
+                exact: true,
                 component: Rank
             }
         ]

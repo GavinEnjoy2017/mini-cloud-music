@@ -31,20 +31,9 @@ module.exports = function (options) {
                 {
                     test: cssLoaderReg,
                     use: [
-                        {
-                            loader: MiniCssExtractPlugin.loader,
-                            options: {
-                                hmr: process.env.NODE_ENV === 'development'
-                            }
-                        },
-                        'style-loader',
+                        MiniCssExtractPlugin.loader,
                         'css-loader',
-                        {
-                            loader: 'sass-loader',
-                            options: {
-                                implementation: require('dart-sass')
-                            }
-                        }
+                        'sass-loader'
                     ]
                 },
                 {
@@ -62,7 +51,7 @@ module.exports = function (options) {
                 filename: 'index.html'
             }),
             new MiniCssExtractPlugin({
-                filename: 'index.css'
+                filename: 'style.css'
             }),
             new OptimizeCSSAssetsPlugin({
                 assetNameRegExp: /index\.css$/g,

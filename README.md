@@ -15,7 +15,7 @@
 4. yarn add sass-loader dart-sass css-loader style-loader file-loader 
 5. yarn add html-webpack-plugin
 6. yarn add webpack-dev-server
-7. yarn add react react-dom react-router-dom react-router-config
+7. yarn add react react-dom react-router-dom react-router-config react-router
 8. yarn add @babel/preset-react
 9. yarn add @types/react @types/react-dom @types/react-router-dom typescript @babel/preset-typescript
 10. yarn add mini-css-extract-plugin
@@ -24,3 +24,10 @@
 13. yarn add clean-webpack-plugin
 14. yarn add progress-bar-webpack-plugin chalk
 15. yarn add styled-components
+16. yarn add redux redux-thunk redux-immutable react-redux immutable
+
+### 项目添加eslint
+
+1. yarn add eslint
+2. npx eslint --init
+

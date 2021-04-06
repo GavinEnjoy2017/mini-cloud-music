@@ -15,7 +15,7 @@ export const Top = styled.div`
             font-size: 25px;
         }
     }
-`
+`;
 
 export const Tab = styled.div`
     height: 44px;
@@ -28,7 +28,7 @@ export const Tab = styled.div`
         padding: 2px;
         font-size: 14px;
         color: #e4e4e4;
-        &.active {
+        &.selected {
             span {
                 padding: 3px 0;
                 font-weight: 1000;
@@ -37,7 +37,7 @@ export const Tab = styled.div`
             }
         }
     }
-`
+`;
 
 export const TabItem = styled.div`
     height: 100%;
@@ -45,4 +45,4 @@ export const TabItem = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-`
+`;
