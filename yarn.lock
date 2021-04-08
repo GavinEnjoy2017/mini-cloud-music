@@ -933,6 +933,74 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@better-scroll/core@^2.0.0-beta.10", "@better-scroll/core@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.npm.taobao.org/@better-scroll/core/download/@better-scroll/core-2.2.1.tgz?cache=0&sync_timestamp=1614862049922&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40better-scroll%2Fcore%2Fdownload%2F%40better-scroll%2Fcore-2.2.1.tgz#3e35b1f6886c712cd9a6baf6aa0b31c754721414"
+  integrity sha1-PjWx9ohscSzZprr2qgsxx1RyFBQ=
+  dependencies:
+    "@better-scroll/shared-utils" "^2.2.1"
+
+"@better-scroll/mouse-wheel@^2.0.0-beta.10":
+  version "2.2.1"
+  resolved "https://registry.npm.taobao.org/@better-scroll/mouse-wheel/download/@better-scroll/mouse-wheel-2.2.1.tgz?cache=0&sync_timestamp=1614862052528&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40better-scroll%2Fmouse-wheel%2Fdownload%2F%40better-scroll%2Fmouse-wheel-2.2.1.tgz#ae4ed3c75d26724da3aa6f0ecdb7b7fdfc5cdf2d"
+  integrity sha1-rk7Tx10mck2jqm8Ozbe3/fxc3y0=
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
+"@better-scroll/observe-dom@^2.0.0-beta.10":
+  version "2.2.1"
+  resolved "https://registry.npm.taobao.org/@better-scroll/observe-dom/download/@better-scroll/observe-dom-2.2.1.tgz#8b206e01077ae4e84a806cfd298e9104fb1729c6"
+  integrity sha1-iyBuAQd65OhKgGz9KY6RBPsXKcY=
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
+"@better-scroll/pull-down@^2.0.0-beta.10":
+  version "2.2.1"
+  resolved "https://registry.npm.taobao.org/@better-scroll/pull-down/download/@better-scroll/pull-down-2.2.1.tgz#4c6b63612b595e6e1b9ea98e178f952f98e667fe"
+  integrity sha1-TGtjYStZXm4bnqmOF4+VL5jmZ/4=
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
+"@better-scroll/pull-up@^2.0.0-beta.10":
+  version "2.2.1"
+  resolved "https://registry.npm.taobao.org/@better-scroll/pull-up/download/@better-scroll/pull-up-2.2.1.tgz?cache=0&sync_timestamp=1614862053556&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40better-scroll%2Fpull-up%2Fdownload%2F%40better-scroll%2Fpull-up-2.2.1.tgz#373027d2be81844dd7c5a1ab59f3dc43f6d7a08a"
+  integrity sha1-NzAn0r6BhE3XxaGrWfPcQ/bXoIo=
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
+"@better-scroll/scroll-bar@^2.0.0-beta.10":
+  version "2.2.1"
+  resolved "https://registry.npm.taobao.org/@better-scroll/scroll-bar/download/@better-scroll/scroll-bar-2.2.1.tgz?cache=0&sync_timestamp=1614862050320&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40better-scroll%2Fscroll-bar%2Fdownload%2F%40better-scroll%2Fscroll-bar-2.2.1.tgz#f1f277b35dac4e1d5e40723a95aae92dc5047024"
+  integrity sha1-8fJ3s12sTh1eQHI6larpLcUEcCQ=
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
+"@better-scroll/shared-utils@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.npm.taobao.org/@better-scroll/shared-utils/download/@better-scroll/shared-utils-2.2.1.tgz?cache=0&sync_timestamp=1614862049140&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40better-scroll%2Fshared-utils%2Fdownload%2F%40better-scroll%2Fshared-utils-2.2.1.tgz#eb024feee1d37598a9b04fc18ca0d8b31f34f704"
+  integrity sha1-6wJP7uHTdZipsE/BjKDYsx809wQ=
+
+"@better-scroll/slide@^2.0.0-beta.10":
+  version "2.2.1"
+  resolved "https://registry.npm.taobao.org/@better-scroll/slide/download/@better-scroll/slide-2.2.1.tgz?cache=0&sync_timestamp=1614862053240&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40better-scroll%2Fslide%2Fdownload%2F%40better-scroll%2Fslide-2.2.1.tgz#165d80d7b0673b715226ee87ee722755be1241ef"
+  integrity sha1-Fl2A17BnO3FSJu6H7nInVb4SQe8=
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
+"@better-scroll/wheel@^2.0.0-beta.10":
+  version "2.2.1"
+  resolved "https://registry.npm.taobao.org/@better-scroll/wheel/download/@better-scroll/wheel-2.2.1.tgz?cache=0&sync_timestamp=1614862053886&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40better-scroll%2Fwheel%2Fdownload%2F%40better-scroll%2Fwheel-2.2.1.tgz#d86732a5aeaf338a77f1790923c22936089db3b2"
+  integrity sha1-2Gcypa6vM4p38XkJI8IpNgids7I=
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
+"@better-scroll/zoom@^2.0.0-beta.10":
+  version "2.2.1"
+  resolved "https://registry.npm.taobao.org/@better-scroll/zoom/download/@better-scroll/zoom-2.2.1.tgz?cache=0&sync_timestamp=1614862052869&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40better-scroll%2Fzoom%2Fdownload%2F%40better-scroll%2Fzoom-2.2.1.tgz#2af518c17ed3e75c6a3155c70b673d33a75fc399"
+  integrity sha1-KvUYwX7T51xqMVXHC2c9M6dfw5k=
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
 "@emotion/is-prop-valid@^0.8.8":
   version "0.8.8"
   resolved "https://registry.npm.taobao.org/@emotion/is-prop-valid/download/@emotion/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
@@ -1672,6 +1740,21 @@ batch@0.6.1:
   version "0.6.1"
   resolved "https://registry.npm.taobao.org/batch/download/batch-0.6.1.tgz#dc34314f4e679318093fc760272525f94bf25c16"
   integrity sha1-3DQxT05nkxgJP8dgJyUl+UvyXBY=
+
+better-scroll@^2.0.0-beta.10:
+  version "2.0.0-beta.10"
+  resolved "https://registry.npm.taobao.org/better-scroll/download/better-scroll-2.0.0-beta.10.tgz?cache=0&sync_timestamp=1614862054853&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbetter-scroll%2Fdownload%2Fbetter-scroll-2.0.0-beta.10.tgz#4c7b9dbc3e690d98fd4d82a190cb74a65dc5c6df"
+  integrity sha1-THudvD5pDZj9TYKhkMt0pl3Fxt8=
+  dependencies:
+    "@better-scroll/core" "^2.0.0-beta.10"
+    "@better-scroll/mouse-wheel" "^2.0.0-beta.10"
+    "@better-scroll/observe-dom" "^2.0.0-beta.10"
+    "@better-scroll/pull-down" "^2.0.0-beta.10"
+    "@better-scroll/pull-up" "^2.0.0-beta.10"
+    "@better-scroll/scroll-bar" "^2.0.0-beta.10"
+    "@better-scroll/slide" "^2.0.0-beta.10"
+    "@better-scroll/wheel" "^2.0.0-beta.10"
+    "@better-scroll/zoom" "^2.0.0-beta.10"
 
 big.js@^5.2.2:
   version "5.2.2"
