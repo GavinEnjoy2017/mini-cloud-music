@@ -8,7 +8,6 @@ function Slider(props) {
     const { bannerList } = props;
 
     useEffect(() => {
-        console.log(bannerList);
         if (bannerList.length && !sliderSwiper) {
             const newSliderSwiper = new Swiper('.slider-container', {
                 loop: true,
@@ -30,7 +29,7 @@ function Slider(props) {
                 <div className="swiper-wrapper">
                     {
                         bannerList.map(slider => (
-                            <div className="swiper-slide" key={slider.id}>
+                            <div className="swiper-slide" key={slider.imageUrl}>
                                 <div className="slider-nav">
                                     <img src={slider.imageUrl} width="100%" height="100%" alt="推荐"></img>
                                 </div>
